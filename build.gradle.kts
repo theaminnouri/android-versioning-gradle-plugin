@@ -19,7 +19,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
-group = "com.theaminnouri"
+group = "io.github.theaminnouri"
 version = "0.1"
 
 gradlePlugin {
@@ -27,7 +27,7 @@ gradlePlugin {
     vcsUrl = "https://github.com/theaminnouri/android-versioning-gradle-plugin.git"
     plugins {
         create("android-versioning-plugin") {
-            id = "com.theaminnouri.android-versioning-plugin"
+            id = "io.github.theaminnouri.android-versioning-plugin"
             displayName = "Android Versioning gradle plugin"
             description = "This will try streamline android application versioning"
             tags = listOf("Android", "Versioning", "tagVersion", "version")
