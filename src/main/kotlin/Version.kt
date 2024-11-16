@@ -1,9 +1,9 @@
 import org.gradle.api.provider.Property
 
-interface Version {
-    val major: Property<Int>
-    val minor: Property<Int>
-    val patch: Property<Int>
+abstract class Version {
+    abstract val major: Property<Int>
+    abstract val minor: Property<Int>
+    abstract val patch: Property<Int>
 
     val versionName: String
         get() = "${major.get()}.${minor.get()}.${patch.get()}"
