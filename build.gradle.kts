@@ -20,7 +20,7 @@ dependencies {
 }
 
 group = "io.github.theaminnouri"
-version = "0.1"
+version = "0.2"
 
 gradlePlugin {
     website = "https://github.com/theaminnouri/android-versioning-gradle-plugin"
