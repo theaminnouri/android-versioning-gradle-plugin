@@ -4,23 +4,15 @@ plugins {
 }
 
 repositories {
-    google {
-        content {
-            includeGroupByRegex("com\\.android.*")
-            includeGroupByRegex("com\\.google.*")
-            includeGroupByRegex("androidx.*")
-        }
-    }
     mavenCentral()
 }
 
 dependencies {
-    implementation("com.android.tools.build:gradle:8.5.2")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
 group = "io.github.theaminnouri"
-version = "0.2"
+version = "0.3"
 
 gradlePlugin {
     website = "https://github.com/theaminnouri/android-versioning-gradle-plugin"
